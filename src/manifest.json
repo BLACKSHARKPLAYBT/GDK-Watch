@@ -1,0 +1,38 @@
+{
+  "package": "Textline.watch.gdk",
+  "versionName": "1.0.1",
+  "versionCode": 3,
+  "appCategory": [
+    "other"
+  ],
+  "config": {
+    "designWidth": 466
+  },
+  "deviceTypeList": [
+    "watch",
+    "watch-square"
+  ],
+  "router": {
+    "entry": "watch10721",
+    "watchfaces": {
+      "watch10721": {
+        "id": 10721,
+        "name": "GDK表盘",
+        "component": "index",
+        "edit": "edit",
+        "features": [
+          {
+            "name": "blueos.app.appmanager.router"
+          }
+        ],
+        "params": {
+          "previewImage": [
+            "watch10721/assets/GDK Watch.png"
+          ],
+          "hpw": 0
+        }
+      }
+    }
+  },
+  "name": "gdk-watch"
+}

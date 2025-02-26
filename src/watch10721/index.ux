@@ -1,0 +1,105 @@
+<template>
+  <div class="wrap">
+    <div class="time">
+      <text>{{hour}}:</text>
+      <text>{{second}}</text>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: [],
+  data() {
+    return {
+      obj: {
+        shown: true
+      },
+    }
+  },
+
+  onInit() {
+    this.$watch('obj.shown', 'propsChange')
+    this.refreshTime();
+    this.obj.shown = `new shown prop`
+
+    this.timerId = setInterval(() => {
+      this.refreshTime();
+    }, 1000)
+  },
+
+  propsChange(newValue, oldValue) {
+    console.log(`newValue: ${newValue}, oldValue: ${oldValue}`)
+  },
+
+  onDestroy() {
+    clearInterval(this.timerId);
+  },
+
+  refreshTime() {
+    const time = new Date();
+
+    this.second = time.getSeconds();
+    this.minute = time.getMinutes();
+    this.hour = time.getHours();
+  }
+}
+</script>
+
+<style lang="scss">
+
+@font-face {
+  font-family: timefont;
+  src: url('/watch10721/assets/font/zhezhi.ttf');
+}
+
+    .wrap {
+    height: 100%;
+    width: 100%;
+    background-image: url('/watch10721/assets/Background.png');
+  }
+
+  .time {
+    width: 380px;
+    height: 150px;
+    top: 370px;
+    left: 10px;
+    display: relative;
+    align-items: center;
+
+    text {
+      color: #A0EBCE;
+      font-family: timefont;
+      font-size: 130px;
+      margin-left: 20px;
+      z-index: 2;
+    }
+  }
+
+@media screen and (device: watch-square) {
+  .wrap {
+    height: 100%;
+    width: 100%;
+    background-image: url('/watch10721/assets/Background.png');
+  }
+
+  .time {
+    width: 380px;
+    height: 150px;
+    top: 370px;
+    left: 10px;
+    display: relative;
+    align-items: center;
+
+    text {
+      color: #A0EBCE;
+      font-family: timefont;
+      font-size: 130px;
+      margin-left: 20px;
+      z-index: 2;
+    }
+  }
+
+
+}
+</style>
