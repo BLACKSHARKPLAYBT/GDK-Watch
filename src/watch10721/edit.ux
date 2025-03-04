@@ -1,7 +1,7 @@
 <template>
   <div class="wrap">
     <div class="container">
-      <text>{{name}}</text>
+      <text>{{text}}</text>
     </div>
   </div>
 </template>
@@ -9,11 +9,12 @@
   export default {
     data() {
       return {
-        name: "edit.ux"
+        name: "edit.ux",
+        text: '暂不支持修改'
       }
     },
     onInit() {
-      console.log(`inside edit`)
+      
     },
 
   }
@@ -22,5 +23,11 @@
   .wrap{
     width: 466px;
     height: 466px;
+
+    .container text {
+      font-size: 50px;
+    }
   }
+
+  
 </style>

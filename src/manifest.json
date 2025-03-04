@@ -1,17 +1,18 @@
 {
   "package": "Textline.watch.gdk",
-  "versionName": "1.0.1",
-  "versionCode": 3,
+  "versionName": "1.1.8",
+  "versionCode": 8,
   "appCategory": [
     "other"
   ],
   "config": {
-    "designWidth": 466
+    "designWidth": 440
   },
   "deviceTypeList": [
     "watch",
     "watch-square"
   ],
+  "permissions": [{ "name": "watch.permission.READ_HEALTH_DATA" }],
   "router": {
     "entry": "watch10721",
     "watchfaces": {
@@ -19,11 +20,12 @@
         "id": 10721,
         "name": "GDK表盘",
         "component": "index",
-        "edit": "edit",
+        "edit": "",
         "features": [
           {
             "name": "blueos.app.appmanager.router"
-          }
+          },
+          {"name": "blueos.health.health"}
         ],
         "params": {
           "previewImage": [

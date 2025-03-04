@@ -2,16 +2,25 @@
   <div class="wrap">
     <div class="time">
       <text>{{hour}}:</text>
-      <text>{{second}}</text>
+      <text>{{minute}}</text>
+      <text class="second">{{second}}</text>
+    </div>
+    <div class='sideBar'>
+      <text class='heart'>{{heart}}</text>
+      <text class='kaluli'>{{kaluli}}</text>
+      <text class='walk'>{{walk}}</text>
     </div>
   </div>
 </template>
 
 <script>
+import health from '@blueos.health.health';
+console.log(health,'========这是一个输出');
 export default {
   props: [],
   data() {
     return {
+      kaluli:1000,heart:100,walk:10000,
       obj: {
         shown: true
       },
@@ -37,69 +46,96 @@ export default {
   },
 
   refreshTime() {
+    /*时间的配置*/
     const time = new Date();
-
     this.second = time.getSeconds();
     this.minute = time.getMinutes();
     this.hour = time.getHours();
+    if(this.hour<10){
+      this.hour="0" + this.hour;
+    }
+    if(this.second<10){
+      this.second="0"+this.second;
+    }
+    if(this.minute<10){
+      this.minute="0"+this.minute;
+    }
   }
 }
+
 </script>
 
 <style lang="scss">
-
-@font-face {
-  font-family: timefont;
-  src: url('/watch10721/assets/font/zhezhi.ttf');
-}
-
     .wrap {
     height: 100%;
     width: 100%;
-    background-image: url('/watch10721/assets/Background.png');
+    background-image: url('/watch10721/assets/background.png');
+
   }
 
   .time {
-    width: 380px;
+    width: 470px;
     height: 150px;
     top: 370px;
-    left: 10px;
+    left: 8px;
     display: relative;
     align-items: center;
 
     text {
       color: #A0EBCE;
       font-family: timefont;
-      font-size: 130px;
+      font-size: 100px;
       margin-left: 20px;
       z-index: 2;
     }
-  }
 
-@media screen and (device: watch-square) {
-  .wrap {
-    height: 100%;
-    width: 100%;
-    background-image: url('/watch10721/assets/Background.png');
-  }
-
-  .time {
-    width: 380px;
-    height: 150px;
-    top: 370px;
-    left: 10px;
-    display: relative;
-    align-items: center;
-
-    text {
+    .second{
       color: #A0EBCE;
       font-family: timefont;
-      font-size: 130px;
-      margin-left: 20px;
-      z-index: 2;
+      font-size: 50px;
+      z-index: 3;
+      position: relative;
+      top: 22px;
+      left: -10px;
     }
   }
 
+/* 右侧 */
+.sideBar {
+  left: -20px;
+  top: 200px;
+  width: 80px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 
+.heart {
+  font-size: 18px;
+  color: #ff0000;
+  top: 15px;
+  left: 25px;
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+.kaluli {
+  font-size: 16px;
+  color: #ffa500;
+  top: 60px;
+  left: 20px;
+  width: 80px;
+  height: 30px;
+  position: relative;
+}
+.walk {
+  font-size: 20px;
+  color: #adff2f;
+  top: 104px;
+  left: 6px;
+  width: 100px;
+  height: 30px;
+  position: relative;
 }
 </style>

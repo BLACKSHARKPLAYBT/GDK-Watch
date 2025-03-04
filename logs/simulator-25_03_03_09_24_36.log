@@ -1,0 +1,81 @@
+argv[0]:f:\Program Files\BlueOSStudio\resources\app\extensions\multi-device-previewer\media\monitor-win\simulator.exe	argv[1]:-port	argv[2]:8000	argv[3]:-device	argv[4]:watch-square	argv[5]:-package	argv[6]:Textline.watch.gdk	argv[7]:-app	argv[8]:f:\Project\Blue OS\gdk-watch\build	argv[9]:-compilePath	argv[10]:	argv[11]:-compileQuery	argv[12]:	argv[13]:-defaultAppDataPath	argv[14]:C:\Users\Textline\AppData\Roaming\BlueOSStudio	argv[15]:-width	argv[16]:390	argv[17]:-height	argv[18]:450	
+[03-03 09:20:06] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:187)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:192)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:195)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:01] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:187)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:192)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:195)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:08] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:188)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:193)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:196)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:08] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:188)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:193)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:196)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:11] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:188)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:193)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:196)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:11] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:188)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:193)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:196)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:13] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:188)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:193)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:196)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
+[03-03 09:22:13] [Error] QuickJSRuntime   JSError:cannot read property 'HEART_Rate' of undefined
+Stack Message:     at refreshTime (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:59)
+    at onInit (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:33)
+    at $emit (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at Vm (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at $app_bootstrap$ (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\resources-pool\jsframework-next\dist\release\framework.js)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:188)
+    at <anonymous> (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:193)
+    at pF (f:\Project\Blue OS\gdk-watch\build/watch-square/watch10721/index.js:196)
+    at q (D:\jenkins_build\workspace\vivo_3.0_STD2132_SystemTest_rpk\STD2132\
